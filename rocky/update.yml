@@ -1,9 +1,4 @@
 ---
-- name: Upgrade all packages
-  ansible.builtin.dnf:
-    name: "*"
-    state: latest
-
-- name: Autoremove unneeded packages installed as dependencies
-  ansible.builtin.dnf:
-    autoremove: yes
+tasks:
+  - name: TEST
+    command: echo "HELLO"
