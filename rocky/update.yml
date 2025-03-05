@@ -1,4 +1,5 @@
 ---
-tasks:
-  - name: TEST
-    command: echo "HELLO"
+- hosts: rocky-vms
+  tasks:
+    - name: TEST
+      command: echo "HELLO"
