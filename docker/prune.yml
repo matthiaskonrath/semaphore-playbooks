@@ -6,7 +6,7 @@
         containers: true
         images: true
         images_filters:
-        dangling: false
+            dangling: false
         networks: true
         volumes: true
         builder_cache: true
