@@ -1,5 +1,6 @@
 ---
 - hosts: pt-kali-vms
+  become: yes
   tasks:
     - name: Run the equivalent of "apt-get update" as a separate step
       ansible.builtin.apt:
